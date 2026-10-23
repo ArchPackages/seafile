@@ -5,7 +5,7 @@
 
 pkgname=seafile
 pkgver=9.0.22
-pkgrel=1
+pkgrel=2
 pkgdesc='An online file storage and collaboration tool'
 arch=('i686' 'x86_64' 'armv7h' 'armv6h' 'aarch64')
 url="https://github.com/haiwen/$pkgname"
@@ -14,7 +14,7 @@ depends=(
     'argon2'
     'libsearpc'
     'libevent'
-    'libwebsockets'
+    'libwebsockets>=5.0.0'
     'fuse'
     'sqlite'
 )
